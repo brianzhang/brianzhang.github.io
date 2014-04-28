@@ -7,7 +7,7 @@ define(['jquery', 'handlebars', 'turn'], function($, handlebars, turn) {
     }
 
     StartApp.prototype.initialize = function() {
-      $("#flipbook").trun({
+      $("#flipbook").turn({
         width: 600,
         height: 400,
         autoCenter: true

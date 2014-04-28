@@ -5,7 +5,7 @@ define(['jquery', 'handlebars', 'turn'], ($, handlebars, turn)->
 			@initialize()
 
 		initialize: ()->
-			$("#flipbook").trun({
+			$("#flipbook").turn({
 				width: 600
 				height:400
 				autoCenter: true
