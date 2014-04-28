@@ -4,9 +4,9 @@ console.log('This would be the main JS file.');
     var urlPath = location.pathname, version = "0.0.1";
     require.config({
         paths: {
-            jquery: "lib/jquery",
-            handlebars: "lib/handlebars",
-            turn: "lib/turn.min",
+            jquery: "base/jquery",
+            handlebars: "base/handlebars",
+            turn: "base/turn.min",
             StartApp: "blog/StartApp"
         },
         shim: {
