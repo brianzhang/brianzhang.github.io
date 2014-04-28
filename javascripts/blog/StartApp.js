@@ -2,13 +2,16 @@
 define(['jquery', 'handlebars', 'turn'], function($, handlebars, turn) {
   var StartApp;
   return StartApp = (function() {
-    function StartApp() {}
-
-    StartApp.prototype.contructor = function() {
-      return this.initialize();
-    };
+    function StartApp() {
+      this.initialize();
+    }
 
     StartApp.prototype.initialize = function() {
+      $("#flipbook").trun({
+        width: 600,
+        height: 400,
+        autoCenter: true
+      });
       return alert(true);
     };
 
